@@ -52,7 +52,7 @@ gcloud container clusters create griffin-dev \
   --zone us-east1-b
 
 
-gcloud container clusters get-credentials griffin-dev --zone us-east1-b
+gcloud container clusters get-credentials griffin-dev --zone us-east1-b --project 'PROJECT NAME'
 
 cd ~/
 
